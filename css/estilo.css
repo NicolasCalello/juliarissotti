@@ -45,7 +45,7 @@ body{
     list-style-type:none;
     text-align: right;
     margin: 2rem;
-    grid-area: nav;
+    
     
     
     
@@ -136,7 +136,7 @@ img{
 }
 
 .descripcion{
-    margin-top: 300px;
+    margin-top: 200px;
 
 }
 
