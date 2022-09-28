@@ -1,0 +1,112 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #949494;
+
+    .contenedor{
+        
+            .logo{
+                width: 150px;
+                padding: 20px;
+                margin: 10px;
+                display: inline-block;
+                animation-duration: 3s;
+                animation-name: aparecer;
+                animation-iteration-count: infinite;}
+                }
+            .menu{
+                list-style-type:none;
+                text-align: right;
+                margin: 2rem;
+                
+                .hiperVinculoNav{
+    
+                    text-decoration: none;
+                    font-family: 'Special Elite', cursive;
+                    color: rgb(255, 255, 255);
+                    
+                    
+                }
+
+                .itemNav{
+                    margin-left: 30px;
+                    margin-right: 30px;
+                    display: inline-block;
+                    background-image: linear-gradient(black,grey);
+
+                    
+                .menu2{
+                    display: none;
+                    position: absolute;
+
+                    .itemNav2{
+                        display: block;
+                        text-decoration: none;
+                        font-family: 'Special Elite', cursive;
+                        color: rgb(255, 255, 255);
+                       text-align: left;
+
+                       .itemNav :hover .itemNav2 {
+                        display: block;
+                        }
+                    }
+                }
+            
+            }
+        }
+        .imagenFondo{
+            background-image: url("/imagenes/WhatsApp Image 2022-08-29 at 11.44.37 PM.jpeg");
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+
+            .titulos{
+                border: #ffffff solid 1px;
+                text-align: center;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                color: white;
+            }
+            .descipcion{
+                margin-top: 200px;
+
+            }
+            .primerParrafo{
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+            }
+            
+
+        }
+        .formulario{
+            .form{
+                text-align: left;
+                margin-left: 500px;
+                border-radius: 5px;
+                background-color: #f4c400;
+                margin-right: 500px;
+                padding: 100px;}
+
+        }
+        
+        .derecha{
+            text-align: right;
+
+        }
+    }
+            
+
+                
+                
+                
+            
+                  
+    
