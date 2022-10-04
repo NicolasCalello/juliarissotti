@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,24 +18,23 @@ body {
     margin: 2rem; }
     body .menu .hiperVinculoNav {
       text-decoration: none;
-      font-family: 'Special Elite', cursive;
-      color: white; }
+      font-family: 'Poppins';
+      color: #000000; }
     body .menu .itemNav {
       margin-left: 30px;
       margin-right: 30px;
       display: inline-block;
-      background-image: linear-gradient(black, grey); }
+      border: dotted #000000 2px;
+      padding: 0.2rem; }
       body .menu .itemNav .menu2 {
         display: none;
         position: absolute; }
         body .menu .itemNav .menu2 .itemNav2 {
           display: block;
           text-decoration: none;
-          font-family: 'Special Elite', cursive;
-          color: white;
+          font-family: 'Poppins';
+          color: #000000;
           text-align: left; }
-          body .menu .itemNav .menu2 .itemNav2 .itemNav :hover .itemNav2 {
-            display: block; }
   body .imagenFondo {
     background-image: url("/imagenes/WhatsApp Image 2022-08-29 at 11.44.37 PM.jpeg");
     background-repeat: no-repeat;
@@ -44,19 +43,19 @@ body {
     background-position: center;
     height: 600px; }
     body .imagenFondo .titulos {
-      border: #ffffff solid 1px;
+      border: #949494 solid 1px;
       text-align: center;
       padding: 1rem;
       margin-bottom: 1rem;
       margin-top: 1rem;
-      color: white; }
+      color: #000000; }
     body .imagenFondo .descipcion {
       margin-top: 200px; }
     body .imagenFondo .primerParrafo {
       padding: 20px;
       margin: 10px;
       text-align: center;
-      color: white;
+      color: #ffffff;
       font-weight: bold; }
   body .formulario .form {
     text-align: left;
