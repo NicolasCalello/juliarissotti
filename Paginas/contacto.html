@@ -4,64 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julia Rissotti Portfolio</title>
+    <title>Sobre mi</title>
     <link rel="icon" href="../imagenes/logo-ok.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <nav>
-        <a href="./index.html"><img class="logo" src="../imagenes/Logos instagram SBJ GRANDE.png"  alt="Shooting" id="arriba"></a>
-         
-        <ul class="menu">
-            <li class="itemNav"><a class="hiperVinculoNav" href="./index.html">inicio</a></li>
-            <li class="itemNav"><a class="hiperVinculoNav" href="./fotografia.html">Fotografia</a>
-                    <UL class="menu2" >
-                        <li class="itemNav2">Empresa</li>
-                        <li class="itemNav2" >Sociales</li>
-                        <li class="itemNav2">Arte</li>
-                        <li class="itemNav2">Fotoperiodismo</li>
-                        <li class="itemNav2">Moda</li>
-                        <li class="itemNav2">Fotoproducto</li>
-                    </UL>
-            </li>
-            <li class="itemNav"><a class="hiperVinculoNav" href="./fIlmmaking.html">Filmmaking</a>
-                <ul class="menu2" >
-                    <li class="itemNav2">Publicidades</li>
-                    <li class="itemNav2" >Videoclips</li>
-
-                </ul>
-            </li>
-            <li class="itemNav"><a class="hiperVinculoNav" href="./sobre-mi.html">Sobre mi</a></li>
-            <li class="itemNav"><a class="hiperVinculoNav" href="./contacto.html">Contacto</a></li>
-        </ul>
-    
-    
-    </nav>
-     <main>
-        <form class="form">
-            <label for="name">Nombre:</label>
-            <input type="text" name="fname"><br>
-            <label for="lname">Apellido:</label>
-            <input type="text" name="lname"><br>
-            <label for="mail">Email</label>
-            <input type="email" name="mail"><br>
-            <label for="tel">Numero de telefono:</label>
-            <input type="tel" name="Telefono"><br>
-            <label for="textarea">Comentarios</label>
-            <textarea name="Comentarios" cols="40" rows="5" ></textarea><br>
-            <input type="submit" name="Submit"> 
-            
-
-        </form>
-
-     </main>
-    <footer>
-        <p>Copyright Nicolas Calello</p>
+    <header>
         
+        <nav class="navbar navbar-expand-lg bg-light nav">
+          <div class="container-fluid">
+                <a href="./index.html"><img src="../imagenes/Logos instagram SBJ GRANDE.png" width="100px" class="logo" alt="Shooting" id="arriba"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav navBar1">
+                        <li class="nav-item">
+                          <a class="nav-link" href="./index.html">inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="./fotografia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fotografia
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Empresa</a></li>
+                            <li><a class="dropdown-item" href="#">Sociales</a></li>
+                            <li><a class="dropdown-item" href="#">Arte</a></li>
+                            <li><a class="dropdown-item" href="#">Fotoperiodismo</a></li>
+                            <li><a class="dropdown-item" href="#">Moda</a></li>
+                            <li><a class="dropdown-item" href="#">Fotoproducto</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="./fIlmmaking.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Filmmaking
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Publicidades</a></li>
+                            <li><a class="dropdown-item" href="#">Videoclips</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./sobre-mi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </nav>
+          
+          
+          
+      </header>
+    <main>
         
+            <div class="container">
+                <form class="row g-4 mt-4 mb-4">
+
+                    <div class="col-6">
+                        <label for="Name" class="form-label">Nombre</label>
+                        <input type="name" class="form-control" id="Name" placeholder="Escribe tu nombre">
+
+                    </div>
+                    <div class="col-6">
+                        <label for="Nombre" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="Apellido" placeholder="Escribe tu apellido">
+
+                    </div>
+                    <div class="col-6">
+                        <label for="telefono" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="Telefono" placeholder="Escribe tu telefono">
+
+                    </div>
+                    <div class="col-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="Email" placeholder="Escribe tu Email">
+
+                    </div>
+                    <div class="col-12">
+                        <label for="Direccion" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="Direccion" placeholder="Escribe tu direccion">
+
+                    </div>
+                    <div class="col-3">
+                        <label for="Ciudad" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+                    </div>
+                    <div class="col-3">
+                        <label for="Codigo postal" class="form-label">Codigo postal</label>
+                        <input type="text" class="form-control" id="codigo postal" placeholder="codigo postal">
+                    </div>
+                    <div class="col-3">
+                        <label for="Pais" class="form-label">Pais</label>
+                        <input type="text" class="form-control" id="Pais" placeholder="Pais">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                        <input type="checkbox" id="Checkterms" class="form-check-input">
+                        <label for="Checkterms" class="form-check-label">Acepto los terminos y condiciones</label>
+                        </div>  
+                        
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">
+                            Registrate
+                        </button>
+                    
+                    </div>
 
 
+                </form>
+                
+
+            </div>
+
+    </main>
+    <footer class="footer">
+        <div class="divFooter">
+        <a href="./index.html"><img src="../imagenes/Logos instagram SBJ GRANDE.png" width="100px" class="logo" alt="Shooting" id="arriba"></a>
+       <h2 class="shooting">All rights reserved to SBJ</h2>
+      </div>
     </footer>
     
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    
+    </body>
 </html>
