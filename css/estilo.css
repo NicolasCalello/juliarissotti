@@ -27,24 +27,10 @@ body {
   .sobreMi p {
     padding: 10px; }
 
-<<<<<<< HEAD
 .primerParrafo {
   height: 100px;
   padding-top: 2px;
   text-align: center; }
-=======
-.menu{
-    list-style-type:none;
-    text-align: right;
-    margin: 2rem;
-    
-    
-    
-    
-}
-.itemNav :hover .itemNav2 {
-    display: block;
->>>>>>> 75504c6ceb6bd33bfa0133268eb8122de1a9ac97
 
 .caja1 {
   background-color: #f4c400;
@@ -84,70 +70,6 @@ body {
   margin-top: 25px;
   margin-right: 25px; }
 
-<<<<<<< HEAD
 .empresa {
   text-align: center;
   margin-top: 10px; }
-=======
-.form{
-    text-align: left;
-    margin-left: 500px;
-    border-radius: 5px;
-    background-color: #f4c400;
-    margin-right: 500px;
-    padding: 100px;
-
-
-
-}
-.imagenFondo{
-    background-image: url("/imagenes/WhatsApp Image 2022-08-29 at 11.44.37 PM.jpeg");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    
-}
-.contenedorGaleria{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-
-}
-
-.descripcion{
-    margin-top: 200px;
-
-}
-
-.menu2{
-    display: none;
-    position: absolute;
-
-}
-.itemNav2{
-    display: block;
-    text-decoration: none;
-    font-family: 'Special Elite', cursive;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    
-
-}
-.itemNav:hover .menu2{
-    display: block;
-
-}
-img{
-    width: 250px;
-    height: auto;
-    margin: 10px;
-
-} 
->>>>>>> 75504c6ceb6bd33bfa0133268eb8122de1a9ac97
