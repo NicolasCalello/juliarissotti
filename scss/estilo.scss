@@ -1,3 +1,8 @@
+$gris:#DDDDDD;
+$amarillo: #f4c400;
+$negro: #232323;
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ body{
 
 }
 .nav{
-    background-color: #DDDDDD;
+    background-color: $gris;
     
     
 
@@ -37,7 +42,7 @@ body{
 
 }
 .sobreMi{
-    background-color: #DDDDDD;
+    background-color: $gris;
         p{
             padding: 10px;
         }
@@ -46,20 +51,20 @@ body{
 }
 .primerParrafo{
     height: 100px;
-    padding-top: 2px;
+    padding-top: 20px;
     text-align: center;
 
 
 }
 .caja1{
-    background-color: #f4c400;
+    background-color: $amarillo;
     border-radius: 10%;
     margin-bottom: 30px;   
     margin-left: auto; 
 
 }
 .caja2{
-    background-color: #f4c400;
+    background-color: $amarillo;
     border-radius: 10%;
     margin-bottom: 20px;   
     
@@ -80,8 +85,12 @@ body{
 .footer{
     
     
-    background-color: #232323;
+    background-color: $negro;
     align-items: center;
+    a{
+        text-decoration: none;
+        
+    }
 
 }
 .divFooter{
@@ -93,11 +102,12 @@ body{
 
 }
 .shooting{
-    color: #DDDDDD;
+    color: $gris;
     text-align: center;
     font-size: 15px;
     margin-top: 25px;
     margin-right: 25px;  
+    
 
 
 }
@@ -106,3 +116,4 @@ body{
     margin-top: 10px;
 
 }
+
